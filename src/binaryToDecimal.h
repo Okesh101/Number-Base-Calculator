@@ -28,20 +28,6 @@ bool isValidBinary(const std::string &binary) {
     return true; // All characters are valid binary digits
 }
 
-// int binaryToDecFunc() {
-//     string inputBinary; 
-//     int returnDecimal;
-//     cout << "\nEnter the binary number: "; 
-//     cin >> inputBinary;
-//     // Validate the binary input
-//     if (!isValidBinary(inputBinary)) {
-//         cout << "Invalid binary number. Please enter a valid binary number." << endl;
-//         return -1; // Indicate an error
-//     }
-//     returnDecimal = binaryToDecimal(inputBinary);
-//     return returnDecimal;
-// }
-
 void printBinDec() {
     string inputBinary; 
     int returnDecimal;

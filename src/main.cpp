@@ -32,18 +32,20 @@ int main()
         break;
     case 2:
         // Binary to Octal
+        printBinOct();
         break;
     case 3:
         // Binary to Hexadecimal
+        printBinHex();
         break;
     case 4:
-        printDecBinary();
+        // printDecBinary();
         break;
     case 5:
         // Decimal to Octal
         break;
     case 6:
-        printDecHex();
+        // printDecHex();
         break;
     case 7:
         // Octal to Binary
