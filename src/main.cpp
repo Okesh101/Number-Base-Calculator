@@ -24,13 +24,16 @@ int main()
         printBinHex();
         break;
     case 4:
+        // Decimal to Binary
         printDecBinary();
         break;
     case 5:
         // Decimal to Octal
+        printDecOctal();
         break;
     case 6:
-        // printDecHex();
+        // Decimal to Hexadecimal
+        printDecHex();
         break;
     case 7:
         // Octal to Binary
