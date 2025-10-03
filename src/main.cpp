@@ -37,21 +37,27 @@ int main()
         break;
     case 7:
         // Octal to Binary
+        printOctBin();
         break;
     case 8:
         // Octal to Decimal
+        printOctDec();
         break;
     case 9:
         // Octal to Hexadecimal
+        printOctHex();
         break;
     case 10:
         // Hexadecimal to Binary
+        printHexBin();
         break;
     case 11:
         // Hexadecimal to Decimal
+        printHexDec();
         break;
     case 12:
         // Hexadecimal to Octal
+        printHexOct();
         break;
     default:
         break;
